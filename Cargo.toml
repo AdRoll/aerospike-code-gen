@@ -1,0 +1,18 @@
+[package]
+name = "aerospike_code_gen"
+version = "0.0.0"
+authors = ["Petar Dambovaliev <petar.atanasov.1987@gmail.com>"]
+description = "A `cargo generate` template for quick-starting a procedural macro crate"
+keywords = ["template", "proc_macro", "procmacro"]
+edition = "2018"
+
+[lib]
+proc-macro = true
+
+[dependencies]
+quote = "1"
+proc-macro2 = "1.0"
+syn = "1.0"
+rlua = "0.19.1"
+luaparse = "0.2.0"
+
